@@ -1,57 +1,127 @@
-<html>
+Skip to content
+ 
+Search…
+All gists
+Back to GitHub
+@gnituda05 
+@prof3ssorSt3v3
+prof3ssorSt3v3/master-detail.html
+Created 3 years ago • Report abuse
+0
+0
+ Code
+ Revisions 1
+<script src="https://gist.github.com/prof3ssorSt3v3/200961186833c2b5d83bce6f781d6b3a.js"></script>
+master-detail.html
+<!DOCTYPE html>
+<html lang="en">
 <head>
-<style>
-body {
-  margin: 0;
-}
-
-ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  width: 25%;
-  background-color: #f1f1f1;
-  position: fixed;
-  height: 100%;
-  overflow: auto;
-  border: 1px solid #555;
-}
-
-li a {
-  display: block;
-  color: #000;
-  padding: 8px 16px;
-  text-decoration: none;
-  border-bottom: 1px solid #555;
-}
-
-li a.active {
-  background-color: #4CAF50;
-  color: white;
-}
-
-li a:hover:not(.active) {
-  background-color: #555;
-  color: white;
-}
-</style>
+    <meta charset="UTF-8">
+    <title>Master-Detail Pattern</title>
+    <meta name="viewport" content="width=device-width">
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+        html{
+            font-size: 20px;
+            font-family: sans-serif;
+            line-height: 1.6;
+            background-color: white;
+        }
+        main{
+            display: flex;
+            justify-content: space-around;
+        }
+        .page{
+            display: block;
+            padding: 1rem;
+            margin: 1rem;
+            background-color: #dedede;
+        }
+        h1{
+            padding:0.5rem 2rem;
+        }
+        #detail h1{
+            cursor: pointer;
+        }
+        .person{
+            list-style: none;
+            border-top: 1px solid #999;
+            padding: 0.2rem 1rem;
+            font-size: 1.2rem;
+            cursor: pointer;
+        }
+        .person:hover,
+        .person.active{
+            background-color: aliceblue;
+        }
+        .person:last-child{
+            border-bottom: 1px solid #999;
+        }
+        
+        .details{
+            list-style: none;
+            padding: 0.2rem 1rem 1.2rem 1rem;
+            margin: 0.5rem 1rem 0.8rem;
+        }
+        .lastAccess{
+            color:lightskyblue;
+        }
+        .avatar{
+            
+        }
+        .name{
+            
+        }
+        .isMobile{
+            
+        }
+    </style>
 </head>
 <body>
-<form action="">
-<ul>
- <li><a href=""><strong>Activities</strong></a></li>
-  <li><a href="registration.html">Registration Page</a></li>
-  <li><a href="calendar.html">Calendar Page</a></li>
-  <li><a href="wishlist.html">Wishlist Page</a></li>
-  <li><a href="markup.html">Markup Page</a>
-    <li><a href="Poem.html">Poem Page</a>
-  </li>
-</ul>
+    <main>
+        <div class="page" id="info">
+            <p>If this were really a Single Page Application we would be hiding all but one of the div "pages" at all times.</p>
+        </div>
+       
+        <div class="page" id="master">
+            <header>
+                <h1>MASTER detail</h1>    
+            </header>
+            <main>
+                <ul class="master-list"></ul>
+            </main>
+        </div>
 
-<div style="margin-left:25%;padding:1px 16px;height:1000px;">
- 
- 
-</div>
-</form>
+        <div class="page" id="detail">
+            <header>
+                <h1>master DETAIL</h1>
+            </header>
+            <main>
+                <ul class="detail-list"></ul>
+            </main>
+        </div>
+    </main>
+    <script src="master-detail.js"></script>
 </body>
 </html>
+@gnituda05
+ 
+Leave a comment
+
+Attach files by dragging & dropping, selecting or pasting them.
+© 2020 GitHub, Inc.
+Terms
+Privacy
+Security
+Status
+Help
+Contact GitHub
+Pricing
+API
+Training
+Blog
+About
