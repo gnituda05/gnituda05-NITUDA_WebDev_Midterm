@@ -30,6 +30,15 @@ h3 {
     font-size : 1.2em;
     color : #00B945;
 }
+aside {
+    float : left;
+    width : 320px;
+    margin-right: 20px;
+    margin-bottom : 15px;
+    background-color : #D0D0D0 ;
+    padding : 5px;
+    border : 1px solid #A8A8A8;
+}
 
 aside h1 {
     font-size : 1.2em;
