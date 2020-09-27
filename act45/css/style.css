@@ -59,7 +59,17 @@ aside ul {
     list-style-type : square;
     color : #FF8500;
 }
-
+header {
+    margin-bottom : 40px;
+}
+nav {
+    text-align : center;
+    margin-top : 0;
+}
+ 
+nav h1 {
+    display : none;
+}
 nav ul {
     list-style-type : none;
     margin : 0px;
@@ -73,6 +83,20 @@ nav a {
     font-weight : bold;
     color : #0776A0; /* this is the main blue from the color scheme */
 }
+nav hr {
+    width : 300px;
+    margin-right : auto;
+    margin-left : auto;
+    background-color : #63DC90;
+    color : #63DC90;
+    height: 3px;
+    border:3px;
+}
+footer {
+    text-align : center;
+    font-size : 0.8em;
+    font-style : italic;
+}
 
  
 img.top-image {
@@ -80,6 +104,9 @@ img.top-image {
     float : left;
     margin-top : 10px;
     margin-right : 30px;
+}
+.quote p {
+    font-style : italic;
 }
 
 <ul class="body-list">
