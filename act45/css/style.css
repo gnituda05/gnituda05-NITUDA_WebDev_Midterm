@@ -40,3 +40,7 @@ aside h2 {
     font-size : 1em;
 }
 
+nav a {
+    font-weight : bold;
+    color : #0776A0; /* this is the main blue from the color scheme */
+}
