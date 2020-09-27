@@ -41,6 +41,12 @@ aside h2 {
 }
 
 
+aside ul {
+    line-height : 1.8em;
+    list-style-type : square;
+    color : #FF8500;
+}
+
 nav ul {
     list-style-type : none;
     margin : 0px;
