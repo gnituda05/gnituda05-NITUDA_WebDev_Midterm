@@ -48,7 +48,11 @@ aside h1 {
 aside h2 {
     font-size : 1em;
 }
-
+aside div {
+    padding : 5px;
+    background-color : #F0F0F0;
+    margin-bottom : 15px;
+}
 
 aside ul {
     line-height : 1.8em;
