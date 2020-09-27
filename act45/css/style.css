@@ -13,6 +13,10 @@ body {
     padding : 10px;
 }
 
+a {
+    color : #3AA6D0; /* this is a light blue from the color scheme */
+    text-decoration : none;
+}
 
 h1 {
     font-size : 3em; /* That's BIG! A statement, really */
