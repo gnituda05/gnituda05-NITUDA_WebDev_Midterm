@@ -61,8 +61,6 @@ nav a {
     color : #0776A0; /* this is the main blue from the color scheme */
 }
 
-ul.body-list{
-    list-style-position:inside;
-    list-style-image: url('../images/small_arrow.png');
-    line-height : 1.8em;
-}
+<ul class="body-list">
+.....
+</ul>
