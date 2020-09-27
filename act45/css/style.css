@@ -27,4 +27,12 @@ h3 {
     color : #00B945;
 }
 
+aside h1 {
+    font-size : 1.2em;
+    margin-top : 0px;
+}
+ 
+aside h2 {
+    font-size : 1em;
+}
 
