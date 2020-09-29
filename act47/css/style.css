@@ -1,1 +1,55 @@
+*{
+  text-align: justify;
+  text-align: center;
+}
+body {
+  background-image: url(https://gnituda05.github.io/gnituda05-NITUDA_WebDev_Midterm/act47/img/723a9688a7d9e1c23a63b183419b39b6.jpg);
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: yellow;
+  padding-top: 55px;
+  padding-bottom: 60px;
+  
+}
+
+.img-box {
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+img {
+  
+  width: 890px;
+  height: 520px;
+  border-radius: 50px;
+  
+  
+}
+
+h1 {
+  font-family: "Anton", sans-serif;
+  margin-top: 20px;
+  font-size: 5em;
+  
+}
+
+
+p{
+  font-size: 1.4em;
+}
+
+.big-box {
+  padding-right: 20px;
+  padding-left: 20px;
+  border-radius: 10px;
+   height: 1520px;
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+hr {
+  border-color: white;
+}
 
